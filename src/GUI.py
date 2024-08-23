@@ -12,9 +12,11 @@ class App(tk.Frame):
         self.window = master
         self.window.config(bg="skyblue")
         self.window.title("GeCoNet_Tool")
-        self.window.maxsize(1050,  590)
-        # self.window.geometry('1050x600')
+        self.window.minsize(1050,  590)
+        # self.window.maxsize(1050,  590)
+        self.window.geometry('1050x800')
         #self.window.iconphoto(False, tk.PhotoImage(file = 'DNA.png'))
+        
         self.gen_win = tk.Frame(self.window,  width=550,  height=200)
         self.gen_win.pack(side='left', fill='both', padx=5,  pady=5,  expand=True)
         self.res_win = tk.Frame(window,  width=500,  height=200)
