@@ -1,6 +1,6 @@
 import networkx as nx
 import pandas as pd
-import community
+# import community
 import matplotlib.pyplot as plt
 from collections import Counter
 from cdlib import algorithms
